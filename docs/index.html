@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cocoa Commercial Escape Room</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script>
+		$(document).ready(function() {
+            $('form').submit(function(e){
+              e.preventDefault();
+              document.location.href = './' + $('#password').val() + '.html';
+            });
+          });
+        </script>
+	</head>
+	<body class="index is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="index.html">CocoaCommercial <span>Christmas social</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">HOME</a></li>
+							</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="inner">
+						<header>
+							<h2>CHRISTMAS SOCIAL</h2>
+						</header>
+						<p>WELCOME TO THE
+						<br />
+						<strong>COCOA COMMERCIAL</strong>
+						<br />
+						CHRISTMAS ESCAPE ROO</p>
+					</div>
+					
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+				
+					<ul class="copyright">
+						<li>&copy; Katherine Bailey</li><li><i>Sorry if there are load of typos</i></a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
